@@ -1,0 +1,72 @@
+/* COMMON */
+body, html{
+    height: 100%;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+/* EXAMPLE PAGE */
+h1 {
+    margin: 0;
+    color: white;
+    background-color: #000000;
+    text-align: center;
+}
+
+h1 a, h1 a:focus, h1 a:visited, h1 a:hover {
+    float: left;
+    color: white;
+    text-decoration: none;
+}
+
+.code {
+    height: 100%;
+    width: 100%;
+    display: block;
+
+}
+
+.code span {
+    margin-top: 2em;
+    text-align: center;
+    font-size: 200%;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.code span:before, .code span:after {
+    content: '';
+    height: 1px;
+    flex: 1;
+    border-bottom: 1px solid black;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+/* INDEX PAGE */
+.container {
+    height: 100%;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.container > img:first-child {
+    width: 60%;
+    margin-left: 20%;
+    display: block;
+}
+
+.container h2 {
+    font-family: sans-serif;
+}

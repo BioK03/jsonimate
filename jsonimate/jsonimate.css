@@ -1,0 +1,12 @@
+#renderer {
+    height: 90%;
+    width: 100%;
+    display: block;
+    background-color: #000000;
+    position: relative;
+}
+
+.jsonimate {
+    position: absolute;
+    display: block;
+}

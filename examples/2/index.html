@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Example 2 : Carousel...</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="../../jsonimate/jsonimate.css"/>
+        <link rel="stylesheet" href="../../styles/style.css"/>
+    </head>
+    <body>
+        
+        <h1>
+            <a href="../../index.html">&lArr; Engine</a>
+            Example 2 : Carousel...
+        </h1>
+        <div id="renderer">
+
+        </div>
+        <script type="text/javascript" src="../../lib/jquery.min.js"></script>
+        <script type="text/javascript" src="../../lib/jquery.easing.js"></script>
+        <script type="text/javascript" src="../../jsonimate/jsonimate.engine.min.js"></script>
+        <script type="text/javascript" src="call.js"></script>
+        <div class="code">
+            <span>CODE</span>
+            <pre>
+                $json = {
+                    "id1": {
+                        image: "",
+                        repetition: 0,
+                        startPadding: 0,
+
+                        startPosition: {
+                            x: 0,
+                            y: 0
+                        },
+                        startAngle: 0,
+                        startSize: {
+                            width: 100,
+                            height: 100
+                        },
+
+                        states: [
+                            {
+                                startImage: "images/paysage/1.jpg",
+                                endPos: {
+                                    x: 100,
+                                    y: 0
+                                },
+                                endAngle: 0,
+                                endSize: {
+                                    width: 100,
+                                    height: 100
+                                },
+                                
+                                animationType: "linear",
+                                animationTime: 1,
+                                endPaddingTime: 0
+                            },
+                            {
+                                startImage: "",
+                                endPos: {
+                                    x: 0,
+                                    y: 0
+                                },
+                                endAngle: 0,
+                                endSize: {
+                                    width: 100,
+                                    height: 100
+                                },
+                                
+                                animationType: "easeInOutCubic",
+                                animationTime: 1000,
+                                endPaddingTime: 1000
+                            },
+                            {
+                                startImage: "",
+                                endPos: {
+                                    x: -100,
+                                    y: 0
+                                },
+                                endAngle: 0,
+                                endSize: {
+                                    width: 100,
+                                    height: 100
+                                },
+                                
+                                animationType: "easeInOutCubic",
+                                animationTime: 1000,
+                                endPaddingTime: 0
+                            },
+                            {
+                                startImage: "images/paysage/white.png",
+                                endPos: {
+                                    x: 100,
+                                    y: 0
+                                },
+                                endAngle: 0,
+                                endSize: {
+                                    width: 100,
+                                    height: 100
+                                },
+                                
+                                animationType: "linear",
+                                animationTime: 1,
+                                endPaddingTime: 0
+                            },
+                            {
+                                startImage: "images/paysage/2.jpg",
+                                endPos: {
+                                    x: 0,
+                                    y: 0
+                                },
+                                endAngle: 0,
+                                endSize: {
+                                    width: 100,
+                                    height: 100
+                                },
+                                
+                                animationType: "easeInOutCubic",
+                                animationTime: 1000,
+                                endPaddingTime: 1000
+                            },
+                            {
+                                startImage: "",
+                                endPos: {
+                                    x: -100,
+                                    y: 0
+                                },
+                                endAngle: 0,
+                                endSize: {
+                                    width: 100,
+                                    height: 100
+                                },
+                                
+                                animationType: "easeInOutCubic",
+                                animationTime: 1000,
+                                endPaddingTime: 0
+                            },
+                            {
+                                startImage: "images/paysage/white.png",
+                                endPos: {
+                                    x: 100,
+                                    y: 0
+                                },
+                                endAngle: 0,
+                                endSize: {
+                                    width: 100,
+                                    height: 100
+                                },
+                                
+                                animationType: "linear",
+                                animationTime: 1,
+                                endPaddingTime: 0
+                            },
+                            {
+                                startImage: "images/paysage/3.jpg",
+                                endPos: {
+                                    x: 0,
+                                    y: 0
+                                },
+                                endAngle: 0,
+                                endSize: {
+                                    width: 100,
+                                    height: 100
+                                },
+                                
+                                animationType: "easeInOutCubic",
+                                animationTime: 1000,
+                                endPaddingTime: 1000
+                            },
+                            {
+                                startImage: "",
+                                endPos: {
+                                    x: -100,
+                                    y: 0
+                                },
+                                endAngle: 0,
+                                endSize: {
+                                    width: 100,
+                                    height: 100
+                                },
+                                
+                                animationType: "easeInOutCubic",
+                                animationTime: 1000,
+                                endPaddingTime: 0
+                            },
+                            {
+                                startImage: "images/paysage/white.png",
+                                endPos: {
+                                    x: 100,
+                                    y: 0
+                                },
+                                endAngle: 0,
+                                endSize: {
+                                    width: 100,
+                                    height: 100
+                                },
+                                
+                                animationType: "linear",
+                                animationTime: 1,
+                                endPaddingTime: 0
+                            },
+                            {
+                                startImage: "images/paysage/4.jpg",
+                                endPos: {
+                                    x: 0,
+                                    y: 0
+                                },
+                                endAngle: 0,
+                                endSize: {
+                                    width: 100,
+                                    height: 100
+                                },
+                                
+                                animationType: "easeInOutCubic",
+                                animationTime: 1000,
+                                endPaddingTime: 1000
+                            },
+                            {
+                                startImage: "",
+                                endPos: {
+                                    x: -100,
+                                    y: 0
+                                },
+                                endAngle: 0,
+                                endSize: {
+                                    width: 100,
+                                    height: 100
+                                },
+                                
+                                animationType: "easeInOutCubic",
+                                animationTime: 1000,
+                                endPaddingTime: 0
+                            }
+                        ]
+                    }
+                };
+
+                jsonimate($json);
+            </pre>
+        </div>
+    </body>
+</html>
