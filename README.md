@@ -9,7 +9,7 @@ You just have to pass a formatted <img src="http://logonoid.com/images/json-logo
 JSONimate is a <img src="http://logonoid.com/images/jquery-logo.png" height="20"/> jQuery library. You have to include jQuery first to be able to use JSONimate.
 This 2D engine generates on the fly CSS properties and jQuery animations.
 
-You can see some examples in the :file_folder:/examples folder.
+You can see some examples in the :file_folder:/examples folder or here : https://biok03.github.io/jsonimate/ 
 
 # Architecture
 Folder / File | Description
